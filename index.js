@@ -14,11 +14,12 @@ function theBeatlesPlay (array1, array2){
 
 function johnLennonFacts (array){
   let newArray = [];
-  
-  while (newArray.length < array.length){
+  let i = 0;
+  while (count < array.length){
         let fact = array[i];
         let fixFact = fact + "!!!";
         newArray.push(fixFact);
+        i++;
   }
   
   return newArray;

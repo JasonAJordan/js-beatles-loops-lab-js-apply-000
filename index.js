@@ -15,7 +15,7 @@ function theBeatlesPlay (array1, array2){
 function johnLennonFacts (array){
   let newArray = [];
   let i = 0;
-  while (count < array.length){
+  while (i < array.length){
         let fact = array[i];
         let fixFact = fact + "!!!";
         newArray.push(fixFact);

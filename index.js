@@ -15,10 +15,10 @@ function theBeatlesPlay (array1, array2){
 function johnLennonFacts (array){
   let newArray = [];
   
-  for (let i = 0; i < array.length; i++){
-      let fact = array[i];
-      let fixFact = fact + "!!!";
-      newArray.push(fixFact);
+  while (newArray.length < array.length){
+        let fact = array[i];
+        let fixFact = fact + "!!!";
+        newArray.push(fixFact);
   }
   
   return newArray;
